@@ -1,0 +1,44 @@
+The " Thé du monde " store has a commercial site organized as follows:
+
+a home page describing the history and philosophy of "Thé du monde", which has
+two links:
+	1. a link to an authentication section
+	2. the product catalog
+
+the authentication section is classic:
+	1. login, password or account creation (login, password, delivery address, from
+invoicing, credit card registration)
+	2. order history (current or past orders)
+	3. disconnect button
+	
+the product catalog (about a hundred) displays the products and has the following functionalities
+following:
+
+	1. display by 12, 24 or 60 products
+	2. paging mechanism
+	3. button to place a product in the cart
+	4. button to validate the cart (which returns to the cart section)
+	
+the shopping cart section which summarizes its contents and offers:
+	1. to modify the content (change quantities, delete a product)
+	2. to validate the cart and proceed to payment (address verification, selection of the
+means of payment, payment via a trusted third party, confirmation of the
+order, send a summary email)
+
+Questions:
+1. Considering only the finalization of the basket, briefly describe (in one sentence) how the basket was completed.
+
+		Test User should able to Login using valid User ID & Password from Authentication Section in Home Page and after entering the product Catalog page, 
+		Test User can either search for the product or use 'display by' functionality to select the Product and click the button to place it in the cart.
+		Test User will click the button to validate the cart 
+	
+	2. Assuming that there are a good thousand tests to automate, what would be your
+implementation approach of automatic tests (language is not important).
+		
+		
+		
+		
+		
+		
+		
+		

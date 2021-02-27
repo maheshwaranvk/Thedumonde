@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="7" ignored="0" total="7" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2793" started-at="2021-02-27T17:02:01 IST" finished-at="2021-02-27T17:02:03 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunFeature@757942a1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="2793" started-at="2021-02-27T17:02:01 IST" finished-at="2021-02-27T17:02:03 IST">
+      <class name="runner.RunFeature">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.RunFeature@757942a1]" name="setUpClass" is-config="true" duration-ms="464" started-at="2021-02-27T17:02:01 IST" finished-at="2021-02-27T17:02:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunFeature@757942a1]" name="runScenario" duration-ms="150" started-at="2021-02-27T17:02:01 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-27T17:02:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC001 VerifySuccessfullOrderPlacement"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify Th� du monde store and its commercial site]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at step.StepDefinition.launch_the_browser(StepDefinition.java:10)
+at ✽.Launch the Browser(file:///E:/Test%20Leaf/Eclipse/SeleniumTesting/InterviewPractises/src/test/java/feature/Thedumonde.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunFeature@757942a1]" name="runScenario" duration-ms="9" started-at="2021-02-27T17:02:01 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-27T17:02:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC002 VerifyLoginFailure"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify Th� du monde store and its commercial site]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at step.StepDefinition.launch_the_browser(StepDefinition.java:10)
+at ✽.Launch the Browser(file:///E:/Test%20Leaf/Eclipse/SeleniumTesting/InterviewPractises/src/test/java/feature/Thedumonde.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunFeature@757942a1]" name="runScenario" duration-ms="10" started-at="2021-02-27T17:02:01 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-27T17:02:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC003 NewTestUserAccountCreation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify Th� du monde store and its commercial site]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at step.StepDefinition.launch_the_browser(StepDefinition.java:10)
+at ✽.Launch the Browser(file:///E:/Test%20Leaf/Eclipse/SeleniumTesting/InterviewPractises/src/test/java/feature/Thedumonde.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunFeature@757942a1]" name="runScenario" duration-ms="11" started-at="2021-02-27T17:02:01 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-27T17:02:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC004 VerifyUnSuccessfullOrderPlacementDueToBadAddress"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify Th� du monde store and its commercial site]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at step.StepDefinition.launch_the_browser(StepDefinition.java:10)
+at ✽.Launch the Browser(file:///E:/Test%20Leaf/Eclipse/SeleniumTesting/InterviewPractises/src/test/java/feature/Thedumonde.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunFeature@757942a1]" name="runScenario" duration-ms="11" started-at="2021-02-27T17:02:01 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-27T17:02:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC005 VerifySuccessfullOrderPlacementByValidAddress"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify Th� du monde store and its commercial site]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at step.StepDefinition.launch_the_browser(StepDefinition.java:10)
+at ✽.Launch the Browser(file:///E:/Test%20Leaf/Eclipse/SeleniumTesting/InterviewPractises/src/test/java/feature/Thedumonde.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunFeature@757942a1]" name="runScenario" duration-ms="18" started-at="2021-02-27T17:02:01 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-27T17:02:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC006 CloseBrowserOrderCancelVerification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify Th� du monde store and its commercial site]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at step.StepDefinition.launch_the_browser(StepDefinition.java:10)
+at ✽.Launch the Browser(file:///E:/Test%20Leaf/Eclipse/SeleniumTesting/InterviewPractises/src/test/java/feature/Thedumonde.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunFeature@757942a1]" name="runScenario" duration-ms="7" started-at="2021-02-27T17:02:01 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-27T17:02:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC007 CancelOrderClickingCancelButton"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify Th� du monde store and its commercial site]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at step.StepDefinition.launch_the_browser(StepDefinition.java:10)
+at ✽.Launch the Browser(file:///E:/Test%20Leaf/Eclipse/SeleniumTesting/InterviewPractises/src/test/java/feature/Thedumonde.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunFeature@757942a1]" name="tearDownClass" is-config="true" duration-ms="2077" started-at="2021-02-27T17:02:01 IST" finished-at="2021-02-27T17:02:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunFeature -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
