@@ -51,10 +51,6 @@ public void runLazyLoad() {
 		}
 		System.out.println(size);
 	}
-	
-	
-	
-
 }
 
 }
