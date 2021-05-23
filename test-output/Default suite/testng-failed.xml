@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="lazyLoad.MakeMytrip">
+      <class name="parallel.LearningParallel">
         <methods>
-          <include name="runLazyLoad"/>
+          <include name="openChromeBrowser"/>
         </methods>
-      </class> <!-- lazyLoad.MakeMytrip -->
+      </class> <!-- parallel.LearningParallel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
